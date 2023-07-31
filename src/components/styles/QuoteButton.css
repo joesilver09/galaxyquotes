@@ -1,0 +1,60 @@
+.change__container {
+  display: flex;
+  position: fixed;
+  bottom: 25px;
+  justify-content: center;
+  height: 45px;
+  width: 100%;
+
+}
+
+.change__button {
+  font-size: 25px;
+  color: blanchedalmond;
+  background-image: linear-gradient(black, rgba(56, 7, 30, 0.7));
+  appearance: none;
+  border-radius: 50px;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  background-color: #610d0d;
+  box-shadow: 0 9px #525252;
+  transition: background-color 0.3s ease;
+}
+
+.change__button:hover {
+  background-color:rgb(255, 0, 0);
+}
+
+.change__button:active{
+    box-shadow: 0 5px #3f3f3f;
+  transform: translateY(4px);
+}
+
+@media (min-width: 385px){
+    .change__container {
+        bottom: 35px;
+        height: 50px; 
+      }
+      
+      .change__button {
+        font-size: 30px;
+        box-shadow: 0 12px #525252;
+      }
+}
+
+@media (min-width: 450px){
+    .change__container {
+        bottom: 60px;
+        height: 30px; 
+      }
+      
+      .change__button {
+        font-size: 20px;
+        box-shadow: 0 9px #525252;
+      }
+      .change__button:active{
+        box-shadow: 0 5px #3f3f3f;
+    }
+}

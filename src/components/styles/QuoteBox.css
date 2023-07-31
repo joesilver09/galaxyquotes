@@ -1,0 +1,72 @@
+.quoteBox {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 80vh;
+  place-items: center;
+  width: min (100%, 400px);
+  padding: 20px 10px;
+  margin: 0 auto;
+}
+.quoteBox__title {
+  display: flex;
+  position: relative;
+  padding: 15px;
+  border-radius: 70%;
+  font-size: 25px;
+  color: transparent;
+
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(253, 253, 253);
+
+  text-shadow: var(--txt-shadow);
+}
+
+.quoteBox__container {
+  max-width: 300px;
+  font-size: 18px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    black,
+    rgb(23, 9, 27, 0.993),
+    rgba(23, 9, 27, 0.445)
+  );
+  /* background-color: rgba(23, 9, 27, 0.685); */
+  /* border: 1px solid whitesmoke; */
+  border-radius: 8%;
+  min-height: 220px;
+}
+
+.source {
+  text-align: center;
+  text-shadow: var(--txt-shadow);
+}
+.author {
+  margin: 0;
+  font-size: 22px;
+  text-shadow: var(--txt-shadow);
+}
+
+@media (min-width: 320px){
+ .quoteBox__title{ font-size: 32px;}
+}
+
+@media (min-width: 385px) {
+  .quoteBox__title {
+    font-size: 38px;
+    top: 0px;
+  }
+  .quoteBox__container {
+    padding: 13px;
+    max-width: 350px;
+    font-size: 18px;
+  }
+  .author,
+  .source {
+    font-size: 20px;
+  }
+
+  .author{ padding-bottom: 30px;}
+}

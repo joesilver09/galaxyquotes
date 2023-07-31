@@ -1,0 +1,30 @@
+.footer__container {
+  display: flex;
+  position: relative;
+  font-size: 13px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__creator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 450px) {
+  .footer__container {
+    font-size: 10px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    bottom: 3px;
+    right: 10px;
+  }
+}
+@media (min-width: 700px) {
+  .footer__container {
+    font-size: 12px;
+  }
+}
