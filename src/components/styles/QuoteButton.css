@@ -1,3 +1,4 @@
+
 .change__container {
   display: flex;
   position: fixed;
@@ -9,7 +10,7 @@
 }
 
 .change__button {
-  font-size: 25px;
+  font-size: 20px;
   color: blanchedalmond;
   background-image: linear-gradient(black, rgba(56, 7, 30, 0.7));
   appearance: none;
@@ -18,18 +19,20 @@
   text-align: center;
   outline: none;
   color: #fff;
-  background-color: #610d0d;
-  box-shadow: 0 9px #525252;
+  background-color: #961313;
+  box-shadow: 0 9px #111111;
   transition: background-color 0.3s ease;
 }
 
 .change__button:hover {
   background-color: rgb(255, 0, 0);
+  filter: brightness(1.3);
 }
 
 .change__button:active {
-  box-shadow: 0 5px #3f3f3f;
+  box-shadow: 0 5px #140c1d;
   transform: translateY(4px);
+  background-color: grey;
 }
 
 @media (min-width: 750px) {

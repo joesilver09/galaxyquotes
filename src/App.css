@@ -22,3 +22,16 @@
 .bg6 {
   background-image: var(--bg-gradient), url("../public/images/space6.jpg");
 }
+
+.bg7 {
+  background-image: var(--bg-gradient), url("../public/images/space7.jpg");
+}
+.bg8 {
+  background-image: var(--bg-gradient), url("../public/images/space8.jpg");
+}
+.bg9 {
+  background-image: var(--bg-gradient), url("../public/images/space9.jpg");
+}
+.bg10 {
+  background-image: var(--bg-gradient), url("../public/images/space10.jpg");
+}

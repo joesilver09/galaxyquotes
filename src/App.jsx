@@ -6,7 +6,7 @@ import QuoteBox from "./components/QuoteBox";
 import quotes from "./db/quote.json";
 import QuoteButton from "./components/QuoteButton";
 import QuoteFooter from "./components/QuoteFooter";
-const bgs = ["bg1", "bg2", "bg3", "bg4", "bg5", "bg6"];
+const bgs = ["bg1", "bg2", "bg3", "bg4", "bg5", "bg6", "bg7", "bg8", "bg9", "bg10"];
 const pls = [
   "pl1",
   "pl2",
