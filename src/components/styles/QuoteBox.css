@@ -20,7 +20,9 @@
   -webkit-text-stroke-color: rgb(253, 253, 253);
 
   text-shadow: var(--txt-shadow);
+  filter: brightness(1.1);
 }
+
 
 .quoteBox__container {
   max-width: 300px;
