@@ -23,7 +23,6 @@
   filter: brightness(1.1);
 }
 
-
 .quoteBox__container {
   max-width: 300px;
   font-size: 18px;
@@ -39,21 +38,20 @@
   /* background-color: rgba(23, 9, 27, 0.685); */
   /* border: 1px solid whitesmoke; */
   border-radius: 30px;
-  min-height: 20%;
+  min-height: 138px;
 }
 
 .source {
   padding-top: 5%;
   text-align: center;
   text-shadow: var(--txt-shadow);
-  
+  transform: translateY(-65%);
 }
 .author {
   margin: 0;
   font-size: 22px;
   text-shadow: var(--txt-shadow);
-  /* padding-bottom: 10%; */
-
+  transform: translateY(-55%);
 }
 
 @media (min-width: 320px) {
@@ -62,31 +60,85 @@
   }
 }
 
-@media (min-width: 750px) {
+@media (min-width: 740px) {
   .quoteBox__title {
     top: 0px;
   }
   .quoteBox__container {
     padding: 13px;
-    max-width: 450px;
+    font-size: 16px;
+    max-width: 460px;
+  }
+  .source {
+    font-size: 20px;
   }
   .author {
+    font-size: 17px;
     padding-bottom: 30px;
   }
 }
 
-@media(min-height: 420px) {
-  .quoteBox__container{
-    min-height: 35vh;
+@media (min-height: 380px) {
+  .source {
+    padding-top: 7px;
+    transform: translateY(0%);
   }
-  .source{padding-top: 20px;}
+  .author{
+    transform: translateY(0%);
+  }
+}
+@media (min-height: 420px) {
+  .quoteBox__container {
+    min-height: 33vh;
+  }
 }
 
-@media (min-width: 750px) and (min-height: 490px){
-  .quoteBox__title{
+@media (min-width: 740px) and (min-height: 490px) {
+  .quoteBox__title {
     font-size: 38px;
   }
-  .quoteBox__container{
+  .quoteBox__container {
     font-size: 20px;
+  }
+  .source {
+    padding-top: 28px;
+    font-size: 24px;
+  }
+  .author {
+    font-size: 20px;
+    transform: translateY(0%);
+  }
+}
+
+@media (min-width: 740px) and (min-height: 740px) {
+  .quoteBox__title {
+    font-size: 50px;
+  }
+  .quoteBox__container {
+    font-size: 28px;
+    max-width: 600px;
+  }
+  .source {
+    font-size: 35px;
+  }
+  .author {
+    font-size: 30px;
+  }
+}
+
+
+@media (min-width: 740px) and (min-height: 1000px) {
+  .quoteBox__title {
+    font-size: 70px;
+  }
+  .quoteBox__container {
+    font-size: 34px;
+    max-width: 650px;
+  }
+  .source {
+    font-size: 45px;
+  }
+  .author {
+    font-size: 38px;
   }
 }

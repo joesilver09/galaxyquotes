@@ -1,4 +1,3 @@
-
 .change__container {
   display: flex;
   position: fixed;
@@ -35,8 +34,37 @@
   background-color: grey;
 }
 
-@media (min-width: 750px) and (min-height: 490px) {
+@media (min-width: 740px) and (min-height: 490px) {
   .change__container {
     bottom: 9vh;
   }
+}
+@media (min-width: 740px) and (min-height: 740px) {
+  .change__container {
+    bottom: 10vh;
+    height: 50px;
+  }
+  .change__button {
+    font-size: 25px;
+    padding: 10px;
+    box-shadow: 0 15px #111111;
+  }
+}
+.change__button:active {
+  transform: translateY(8px);
+}
+
+@media (min-width: 740px) and (min-height: 1000px) {
+  .change__container {
+    bottom: 100px;
+    height: 70px;
+  }
+  .change__button {
+    font-size: 40px;
+    padding: 10px;
+    box-shadow: 0 20px #111111;
+  }
+  .change__button:active {
+    transform: translateY(20px);
+}
 }

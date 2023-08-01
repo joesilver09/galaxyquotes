@@ -34,7 +34,7 @@
   }
 }
 
-@media (min-width: 750px) and (min-height: 490px){
+@media (min-width: 740px) and (min-height: 490px){
   .planet__container {
     height: 73vh;
     max-height: 415px;
@@ -44,6 +44,21 @@
     max-width: 415px;
   }
 }
+
+@media (min-width: 740px) and (min-height: 740px) {
+  .planet__container {
+    height: 55vh;
+    max-height: 570px;
+  }
+  .planet {
+    width: 55vh;
+    max-width: 570px;
+  }
+}
+
+
+/* @media (min-width: 740px) and (min-height: 740px) { */
+ 
 .pl1 {
   background-image: url("../../../public/images/planets/planet1.png");
 }

@@ -15,7 +15,7 @@
   align-items: center;
 }
 
-@media (min-width: 750px) {
+@media (min-width: 740px) {
   .footer__container {
     font-size: 12px;
     position: absolute;
@@ -24,4 +24,12 @@
     bottom: 3px;
     right: 10px;
   }
+}
+
+@media (min-width: 740px) and (min-height: 740px){
+  .footer__container{font-size: 15px;}
+}
+
+@media (min-width: 740px) and (min-height: 1000px){
+  .footer__container{font-size: 18px;}
 }
