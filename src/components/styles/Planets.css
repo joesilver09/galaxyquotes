@@ -12,6 +12,7 @@
 }
 
 .planet {
+  z-index: 0;
   overflow: hidden;
   height: 100%;
   width: 350px;
@@ -33,16 +34,16 @@
   }
 }
 
-
-@media (min-width: 750px) {
+@media (min-width: 750px) and (min-height: 490px){
   .planet__container {
-    height: 400px;
+    height: 73vh;
+    max-height: 415px;
   }
   .planet {
-    width: 400px;
+    width: 73vh;
+    max-width: 415px;
   }
 }
-
 .pl1 {
   background-image: url("../../../public/images/planets/planet1.png");
 }

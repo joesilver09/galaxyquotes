@@ -35,8 +35,8 @@
   background-color: grey;
 }
 
-@media (min-width: 750px) {
+@media (min-width: 750px) and (min-height: 490px) {
   .change__container {
-    bottom: 55px;
+    bottom: 9vh;
   }
 }
