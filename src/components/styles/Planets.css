@@ -7,13 +7,13 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 300px;
+  height: 350px;
 }
 
 .planet {
   overflow: hidden;
   height: 100%;
-  width: 300px;
+  width: 350px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

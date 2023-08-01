@@ -32,8 +32,8 @@
   transform: translateY(4px);
 }
 
-@media (min-width: 700px) {
+@media (min-width: 750px) {
   .change__container {
-    bottom: 60px;
+    bottom: 55px;
   }
 }
