@@ -8,6 +8,7 @@
   align-items: center;
   width: 100%;
   height: 350px;
+  bottom: -250px;
 }
 
 .planet {
@@ -18,7 +19,7 @@
   background-position: center;
   background-size: cover;
 }
-@media (min-width: 385px) {
+@media (min-width: 750px) {
   .planet__container {
     height: 400px;
   }

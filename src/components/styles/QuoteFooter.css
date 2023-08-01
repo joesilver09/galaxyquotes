@@ -2,9 +2,11 @@
   display: flex;
   position: relative;
   font-size: 13px;
-  padding: 10px;
+  bottom: 40px;
   justify-content: center;
   align-items: center;
+  z-index: 1;
+  bottom: 0px;
 }
 
 .footer__creator {

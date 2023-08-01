@@ -57,7 +57,7 @@
   }
 }
 
-@media (min-width: 385px) {
+@media (min-width: 750px) {
   .quoteBox__title {
     font-size: 38px;
     top: 0px;
