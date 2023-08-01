@@ -5,7 +5,7 @@
   justify-content: center;
   height: 45px;
   width: 100%;
-
+  z-index: 1;
 }
 
 .change__button {
@@ -24,37 +24,16 @@
 }
 
 .change__button:hover {
-  background-color:rgb(255, 0, 0);
+  background-color: rgb(255, 0, 0);
 }
 
-.change__button:active{
-    box-shadow: 0 5px #3f3f3f;
+.change__button:active {
+  box-shadow: 0 5px #3f3f3f;
   transform: translateY(4px);
 }
 
-@media (min-width: 385px){
-    .change__container {
-        bottom: 35px;
-        height: 50px; 
-      }
-      
-      .change__button {
-        font-size: 30px;
-        box-shadow: 0 12px #525252;
-      }
-}
-
-@media (min-width: 450px){
-    .change__container {
-        bottom: 60px;
-        height: 30px; 
-      }
-      
-      .change__button {
-        font-size: 20px;
-        box-shadow: 0 9px #525252;
-      }
-      .change__button:active{
-        box-shadow: 0 5px #3f3f3f;
-    }
+@media (min-width: 700px) {
+  .change__container {
+    bottom: 60px;
+  }
 }

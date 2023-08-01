@@ -13,18 +13,13 @@
   align-items: center;
 }
 
-@media (min-width: 450px) {
+@media (min-width: 750px) {
   .footer__container {
-    font-size: 10px;
+    font-size: 12px;
     position: absolute;
     margin: 0;
     padding: 0;
     bottom: 3px;
     right: 10px;
-  }
-}
-@media (min-width: 700px) {
-  .footer__container {
-    font-size: 12px;
   }
 }

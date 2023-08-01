@@ -1,11 +1,12 @@
 .quoteBox {
   display: grid;
   grid-template-rows: auto 1fr auto;
-  min-height: 80vh;
+  min-height: 70vh;
   place-items: center;
   width: min (100%, 400px);
   padding: 20px 10px;
   margin: 0 auto;
+  z-index: 1;
 }
 .quoteBox__title {
   display: flex;
@@ -40,6 +41,7 @@
 }
 
 .source {
+  padding-top: 30px;
   text-align: center;
   text-shadow: var(--txt-shadow);
 }
@@ -49,8 +51,10 @@
   text-shadow: var(--txt-shadow);
 }
 
-@media (min-width: 320px){
- .quoteBox__title{ font-size: 32px;}
+@media (min-width: 320px) {
+  .quoteBox__title {
+    font-size: 32px;
+  }
 }
 
 @media (min-width: 385px) {
@@ -63,10 +67,8 @@
     max-width: 350px;
     font-size: 18px;
   }
-  .author,
-  .source {
-    font-size: 20px;
-  }
 
-  .author{ padding-bottom: 30px;}
+  .author {
+    padding-bottom: 30px;
+  }
 }

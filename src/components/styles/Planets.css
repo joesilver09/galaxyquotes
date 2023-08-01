@@ -1,0 +1,74 @@
+.planet__container {
+  position: fixed;
+  z-index: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+}
+
+.planet {
+  overflow: hidden;
+  height: 100%;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media (min-width: 385px) {
+  .planet__container {
+    height: 400px;
+  }
+  .planet {
+    width: 400px;
+  }
+}
+
+.pl1 {
+  background-image: url("../../../public/images/planets/planet1.png");
+}
+.pl2 {
+  background-image: url("../../../public/images/planets/planet2.png");
+}
+.pl3 {
+  background-image: url("../../../public/images/planets/planet3.png");
+}
+.pl4 {
+  background-image: url("../../../public/images/planets/planet4.png");
+}
+.pl5 {
+  background-image: url("../../../public/images/planets/planet5.png");
+}
+.pl6 {
+  background-image: url("../../../public/images/planets/planet6.png");
+}
+.pl7 {
+  background-image: url("../../../public/images/planets/planet7.png");
+}
+.pl8 {
+  background-image: url("../../../public/images/planets/planet8.png");
+}
+.pl9 {
+  background-image: url("../../../public/images/planets/planet9.png");
+}
+.pl10 {
+  background-image: url("../../../public/images/planets/planet10.png");
+}
+.pl11 {
+  background-image: url("../../../public/images/planets/planet11.png");
+}
+.pl12 {
+  background-image: url("../../../public/images/planets/planet12.webp");
+}
+.pl13 {
+  background-image: url("../../../public/images/planets/planet13.webp");
+}
+.pl14 {
+  background-image: url("../../../public/images/planets/planet14.webp");
+}
+.pl15 {
+  background-image: url("../../../public/images/planets/planet15.webp");
+}

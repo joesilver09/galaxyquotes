@@ -4,22 +4,21 @@
   background-size: cover;
 }
 .bg1 {
-  background-image:var(--bg-gradient), url("../public/images/space1.jpg");
+  background-image: var(--bg-gradient), url("../public/images/space1.jpg");
 }
 .bg2 {
-  background-image:var(--bg-gradient), url("../public/images/space2.jpg");
+  background-image: var(--bg-gradient), url("../public/images/space2.jpg");
 }
 .bg3 {
-  background-image:var(--bg-gradient), url("../public/images/space3.jpg");
+  background-image: var(--bg-gradient), url("../public/images/space3.jpg");
 }
 .bg4 {
-  background-image:var(--bg-gradient), url("../public/images/space4.jpg");
+  background-image: var(--bg-gradient), url("../public/images/space4.jpg");
 }
 .bg5 {
-  background-image: var(--bg-gradient),url("../public/images/space5.jpg");
+  background-image: var(--bg-gradient), url("../public/images/space5.jpg");
 }
 
 .bg6 {
-  background-image: var(--bg-gradient),url("../public/images/space6.jpg");
+  background-image: var(--bg-gradient), url("../public/images/space6.jpg");
 }
-
